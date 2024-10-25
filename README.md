@@ -26,7 +26,7 @@ Em `Users`, crie um novo usuário, e faça as seguintes configurações:
 * Na aba `Groups`, associe o(s) grupo(s) criado(s).
 
 Em `Clients`, crie um novo cliente para representar a aplicação que o usuário utilizará para fazer login. Nas configurações do cliente, na aba `Client scopes`, faça as seguintes configurações:
-* Exclua todos os escopos que são adicionador por padrão;
+* Exclua todos os escopos que são adicionados por padrão;
 * Adicione o escopo `basic`, ele é responsável por adicionar o id do usuário no token com a nomenclatura `sub`;
 * Entre no escopo `{ClientName}-dedicated` e faça as seguintes configurações:
     * Adicione um novo `mapper` do tipo `By configuration` chamado `Audience`. Defina um nome e selecione sua aplicação no campo `Included Client Audience`, verifique se está marcado `On` para adicionar no token;
